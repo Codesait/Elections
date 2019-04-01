@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chiemela.election_waka.Activities.Statistics">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/stats"/>
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="50"-->
+            <!--android:orientation="vertical"-->
+            <!--android:gravity="center">-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/planted_layout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--&gt;-->
+                <!--<TextView-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_alignParentTop="true"-->
+                    <!--android:id="@+id/tvAfforestTitle"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textSize="18dp"-->
+                    <!--android:text="Report Statistics"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_below="@id/tvAfforestTitle"-->
+                    <!--android:id="@+id/tvEconomicTree"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:text="Elections "/>-->
+                <!--<TextView-->
+                    <!--android:fontFamily="casual"-->
+                    <!--android:layout_below="@id/tvEconomicTree"-->
+                    <!--android:id="@+id/tvNoOfTreesP"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="No of Reports Made: "/>-->
+
+
+
+                <!--<TextView-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_toRightOf="@id/tvNoOfTreesP"-->
+                    <!--android:layout_below="@id/tvEconomicTree"-->
+                    <!--android:id="@+id/tvNoOfTrees"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text=""/>-->
+
+
+                <!--<TextView-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_below="@id/tvNoOfTrees"-->
+                    <!--android:id="@+id/tvNEconomicTreeP"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:text="Non Economic Trees"/>-->
+                <!--<TextView-->
+                    <!--android:fontFamily="casual"-->
+                    <!--android:layout_below="@id/tvNEconomicTreeP"-->
+                    <!--android:id="@+id/tvNoOfTreesPlanted"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="No of success reports: "/>-->
+                <!--<TextView-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_toRightOf="@id/tvNoOfTreesPlanted"-->
+                    <!--android:layout_below="@id/tvNEconomicTreeP"-->
+                    <!--android:id="@+id/tvNoOfTreesN"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text=" "/>-->
+
+
+            <!--</RelativeLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="vertical"
+            android:gravity="center">
+            <RelativeLayout
+                android:id="@+id/def_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/tvDeforestationTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:text="Report Statistics"/>
+
+                <TextView
+                    android:layout_below="@id/tvDeforestationTitle"
+                    android:id="@+id/tvEconomicTreeD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="No of primary elections reported "/>
+                <TextView
+                    android:fontFamily="casual"
+                    android:layout_below="@id/tvEconomicTreeD"
+                    android:id="@+id/tvNoOfTreesPD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Primary: "/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tvNoOfTreesPD"
+                    android:layout_below="@id/tvEconomicTreeD"
+                    android:id="@+id/tvNoOfPrimaryElectionReported"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/tvNoOfPrimaryElectionReported"
+                    android:id="@+id/tvNEconomicTreeD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="No of general elections reported"/>
+                <TextView
+                    android:fontFamily="casual"
+                    android:layout_below="@id/tvNEconomicTreeD"
+                    android:id="@+id/tvNoOfTreesReported"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="General: "/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tvNoOfTreesReported"
+                    android:layout_below="@id/tvNEconomicTreeD"
+                    android:id="@+id/tvNoOfGeneralReported"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "/>
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/displayStatistics"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Display"
+                    android:layout_below="@+id/tvNoOfGeneralReported"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

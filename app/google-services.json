@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1092002329070",
+    "firebase_url": "https://my-election-app.firebaseio.com",
+    "project_id": "my-election-app",
+    "storage_bucket": "my-election-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092002329070:android:181f0af251d52bd5",
+        "android_client_info": {
+          "package_name": "com.example.iduma.tree_tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092002329070-ejld6phbjd083ec78js9bukopv228gki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iduma.tree_tracking",
+            "certificate_hash": "3e584717e908c92bb46636dbc5a14af3735a9e12"
+          }
+        },
+        {
+          "client_id": "1092002329070-521f5aspfni69g21s730lgprariq1she.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUGrHJZpc-IC-YJxN5yNP2VlMmT85-4qQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092002329070-521f5aspfni69g21s730lgprariq1she.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
